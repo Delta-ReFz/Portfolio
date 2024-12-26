@@ -68,3 +68,37 @@ export const navItems = [
   
   ];
   
+  export const projects = [
+    {
+      id: 1,
+      title: "EZ Shop",
+      des: "Easy Shop is a MERN stack application designed to manage products.It takes 30 seconds to 1 minute to load, price to pay for hosting it on a free deployment platform)",
+      img: "/productstore.png",
+      iconLists: ["/vite.png", "/react.png", "/express.png", "/nodejs.png", "/mongodb.png"],
+      link: "https://mehdizshop.onrender.com",
+    },
+    {
+      id: 2,
+      title: "FakeAmazon",
+      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      img: "/sonic.png",
+      iconLists: ["/js.png", "/kaplay.png", "/vite.png"],
+      link: "https://github.com/delta-refz/FakeAmazon",
+    },
+    {
+      id: 3,
+      title: "RPSbooleanProject",
+      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      img: "/sonic.png",
+      iconLists: ["/js.png", "/kaplay.png", "/vite.png"],
+      link: "https://github.com/delta-refz/RPSbooleanProject",
+    },
+    {
+      id: 4,
+      title: "Sonic Runner Game",
+      des: "Recreated Sonic-inspired game, using JS, Kaplay library, Vanilla , and Vite for an efficient development workflow",
+      img: "/sonic.png",
+      iconLists: ["/js.png", "/kaplay.png", "/vite.png"],
+      link: "https://delta-refz.itch.io/sonicrunnergame",
+    },
+  ];

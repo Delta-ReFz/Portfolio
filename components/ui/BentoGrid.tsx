@@ -1,9 +1,11 @@
 "use client";
+import dynamic from "next/dynamic";
 
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-import Lottie from "react-lottie-player";
+const Lottie = dynamic(() => import("react-lottie-player"), { ssr: false });
+
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";

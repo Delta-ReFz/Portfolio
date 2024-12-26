@@ -17,3 +17,7 @@ export default function Home() {
     </main>
   );
 }
+//git add .
+//git commit -m "Ajout de mes modifications"
+//git push
+

@@ -91,7 +91,7 @@ export const BentoGridItem = ({
           className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
             } `}
         >
-          {spareImg && (
+          {spareImg && id !== 2 &&(
             <img
               src={spareImg}
               alt={spareImg}
@@ -120,13 +120,29 @@ export const BentoGridItem = ({
             {title}
           </div>
 
+          
+  
+
+{spareImg && id === 2 && (
+  <div className="absolute right-0 top-1/4">
+    <img
+      src={spareImg}
+      alt={spareImg}
+      className="object-cover object-center w-full h-full"
+    />
+  </div>
+)}
+
+
+
+
           {id === 3 && (
-           <div className="flex lg:gap-5 mr-5 w-fit absolute bottom-1 right-1">
+           <div className="flex lg:gap-4 mr-5 w-fit absolute top-1 bottom-2 right-1">
            <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
              {leftLists.map((item, i) => (
                <span
                  key={i}
-                 className="py-2 px-3 text-xl lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                 className="py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                >
                  {item}
                </span>

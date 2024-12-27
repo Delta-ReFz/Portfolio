@@ -135,3 +135,46 @@ export const navItems = [
       title: "Student",
     },
   ];
+  export const workExperience = [
+    {
+      id: 1,
+      title: "Walmart Electronic Service",
+      desc: "Advised customers on electronic products and resolved technical issues, building expertise in technology and communication. Managed inventory and provided excellent customer service, skills now applied to software project management",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 2,
+      title: "Subway",
+      desc: "Trained and onboarded several new employees, ensuring they understood internal processes and tools. Developed strong leadership, communication, and organizational skills while maintaining high team performance. Gained experience in mentoring and fostering collaboration in a fast-paced work environment.",
+      className: "md:col-span-2", 
+      thumbnail: "/exp2.svg",
+    },
+    {
+      id: 3,
+      title: "Hope we get more",
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 4,
+      title: "Hope we get more",
+      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
+    },
+  ];
+     
+    export const socialMedia = [
+      {
+        id: 1,
+        img: "/git.svg",
+        link: "https://github.com/delta-refz",
+      },
+      {
+        id: 3,
+        img: "/link.svg",
+        link: "https://linkedin.com/in/el-mehdi-oukid-9873b3334"
+      },
+    ];

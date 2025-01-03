@@ -74,7 +74,7 @@ export const navItems = [
       title: "EZ Shop",
       des: "Note that it takes 30 secs to 1 minute to load. EZ Shop is a MERN stack application designed to manage products",
       img: "/productstore.png",
-      iconLists: ["/vite.png", "/react.png", "/express.png", "/nodejs.png", "/mongodb.png", "chakra.png"],
+      iconLists: ["/vite.png", "/re.svg", "/express.png", "/nodejs.png", "/mongodb.png", "chakra.png"],
       link: "https://mehdizshop.onrender.com",
     },
     {
@@ -90,7 +90,7 @@ export const navItems = [
       title: "DRZ Directry",
       des: "DRZ Directory is a platform for managing and displaying startup ideas. It allows users to submit new startup ideas, including details like title, description, pitch, category, and image URL.",
       img: "/main.png",
-      iconLists: ["/ts.svg", "/react.png", "/nextjs.png", "/aceternity.png"],
+      iconLists: ["/ts.svg", "/re.svg", "/next.svg", "/aceternity.png", "/tail.svg"],
       link: "https://drz-directory.vercel.app/",
     },
     {
@@ -174,6 +174,13 @@ export const navItems = [
         img: "/git.svg",
         link: "https://github.com/delta-refz",
       },
+
+      {
+        id: 2,
+        img: "/file.svg",
+        link: "https://github.com/delta-refz",
+      },
+
       {
         id: 3,
         img: "/link.svg",

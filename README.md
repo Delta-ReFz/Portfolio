@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website 🌐  
 
-## Getting Started
+This is my personal portfolio website, built using **React.js** to showcase my projects, skills, and contact information. Inspired by a YouTube tutorial, I used it as a learning opportunity to understand React while adding my unique touch and features to the project.
 
-First, run the development server:
+Check out my portfolio here: [portfolio-blush-one-21.vercel.app](https://portfolio-blush-one-21.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Responsive Design:** Fully responsive layout for all devices (mobile, tablet, desktop).  
+- **Dynamic Project Showcase:** Interactive project cards displaying descriptions, technologies used, and clickable links to repositories.  
+- **Custom Styling:** Tailored CSS for a unique and personalized appearance.  
+- **Interactive Social Links:** Easy access to my GitHub, LinkedIn, and other platforms through clickable icons.  
+- **Contact Section:** Includes an interactive form to reach me via email.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React.js:** Front-end framework for building dynamic components.  
+- **CSS/SCSS:** For custom styling and animations.  
+- **Tailwind CSS:** For efficient and responsive design.  
+- **React Icons:** For visually appealing social and navigation icons.  

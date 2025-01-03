@@ -87,11 +87,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Portfolio",
-      des: "The portfolio you are looking at right now is one of the projects I made, inspired by a YouTube tutorial",
+      title: "DRZ Directry",
+      des: "DRZ Directory is a platform for managing and displaying startup ideas. It allows users to submit new startup ideas, including details like title, description, pitch, category, and image URL.",
       img: "/main.png",
       iconLists: ["/ts.svg", "/react.png", "/nextjs.png", "/aceternity.png"],
-      link: "https://portfolio-blush-one-21.vercel.app",
+      link: "https://drz-directory.vercel.app/",
     },
     {
       id: 4,
@@ -101,6 +101,7 @@ export const navItems = [
       iconLists: ["/js.png", "/kaplay.png", "/vite.png"],
       link: "https://delta-refz.itch.io/sonicrunnergame",
     },
+
   ];
 
   export const testimonials = [
@@ -164,6 +165,7 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
+
   ];
      
     export const socialMedia = [
@@ -177,4 +179,6 @@ export const navItems = [
         img: "/link.svg",
         link: "https://linkedin.com/in/el-mehdi-oukid-9873b3334"
       },
+
+      
     ];

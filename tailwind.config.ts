@@ -28,10 +28,10 @@ const config = {
     extend: {
       colors: {
         black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          DEFAULT: "#1C1C1C", // Un noir profond et légèrement gris
+          100: "#0D0D0D",     // Un ton encore plus sombre pour les ombres profondes
+          200: "#3C3C3C",     // Gris foncé pour une variation subtile
+          300: "#6E6E6E",     // Gris très clair pour un effet d'éclaircie ou de lumière faible
         },
         white: {
           DEFAULT: "#FFF",
@@ -39,9 +39,16 @@ const config = {
           200: "#C1C2D3",
         },
         blue: {
-          "100": "#E4ECFF",
+          100: "#E4ECFF",     // Un bleu clair, lumineux mais subtil
+          200: "#2D3A45",     // Bleu sombre, presque noir, pour ajouter de la profondeur
         },
-        purple: "#CBACF9",
+        purple: "#CBACF9",    // Un violet doux et un peu pastel, ajoutant une touche de mystère
+        red: {
+          DEFAULT: "#9B111E",  // Rouge vif, rappelant la couleur des yeux de Shadow
+          100: "#C0392B",      // Un rouge un peu plus clair pour des accents
+          200: "#B03A2E",      // Rouge plus sombre, pour des ombres
+          300: "#7D241B",      // Rouge profond, presque bordeaux, pour ajouter de la profondeur
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
